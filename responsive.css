@@ -1,0 +1,281 @@
+@media only screen and (max-width:778px) {
+
+
+    .home-content {
+        max-width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .logo {
+        transition: all 0.7s ease-out;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    p {
+        letter-spacing: normal;
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        letter-spacing: 0.6rem;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.7s ease-out;
+
+    }
+
+    .list li {
+        margin-top: 1.5rem;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .navbar {
+        transition: all 0.7s ease-out;
+        height: 350px;
+    }
+
+    .about-data {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-data h1 {
+        font-size: 4rem;
+    }
+
+    .home-data a {
+        font-size: 1.5rem;
+    }
+
+    .home-data p {
+        font-size: 1.5rem;
+        letter-spacing: .5rem;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .skills {
+        padding-bottom: 20px;
+        gap: 30px;
+    }
+
+    .row .box {
+        width: 100px;
+        height: 100px;
+    }
+
+    .service {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service .box {
+        width: 90%;
+    }
+
+    .row {
+        top: 20%;
+
+    }
+
+    .port {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .port p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    #testimonials .item p {
+        line-height: 3.5rem;
+    }
+
+
+
+    .contact-form {
+        width: 35rem;
+    }
+
+    .h-nav-resp {
+        height: 65px;
+    }
+
+    .v-nav-resp {
+        opacity: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:425px) {
+    .container {
+        margin: 5%;
+}
+
+#home h1 {
+    font-size: 3rem;
+}
+
+.home-content {
+    background-color: green;
+    background: rgba(0, 0, 0, 0.5) url(img/Phone-office.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.navbar {
+    background-color: pink;
+    width:100%;
+    box-shadow: 0 0 1px 0 rgb(18, 1, 4);
+}
+
+.logo img {
+    width: 5rem;
+    height: auto;
+}
+
+nav {
+    height: auto;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.home-data a {
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.info {
+    flex-direction: column;
+}
+
+.skills {
+    flex-direction: column;
+}
+
+.skills .progress .bar {
+    width: 60%;
+}
+
+.skills .progress p {
+    width: 60%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+}
+.row .box {
+    width: 100px;
+    height: 100px;
+}
+
+.work {
+    height: 70vh;
+}
+
+.block img {
+    width: 160px;
+    height: 145px;
+    border-radius: 15px;
+}
+
+.block {
+    width: auto;
+}
+
+.block p {
+    font-size: 1.4rem;
+}
+
+.block a {
+    font-size: 1.4rem;
+    padding: 3px 5px;
+    top: 10px;
+}
+
+#testimonials .item p {
+    line-height: 2.8rem;
+}
+
+#testimonials .item {
+    width: 90%;
+    left: 5%;
+}
+
+#testimonials h1 {
+    letter-spacing: 8px;
+}
+
+.contact-box {
+    flex-direction: column;
+}
+
+.contact-form {
+    width: 32rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-form input,
+button {
+    height: 3rem;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+}
